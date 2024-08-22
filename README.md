@@ -5,3 +5,4 @@
 3) Эффект мерцающих звезд
    [https://sova0110.github.io/animation_js/stars.html]
 5) Эффект волн на водоеме.
+   [https://sova0110.github.io/animation_js/waves.html]
