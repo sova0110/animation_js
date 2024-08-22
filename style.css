@@ -75,3 +75,11 @@ h1{
       opacity: 1;
   }
 }
+/* эффект волн**/
+.container--waves {
+  margin: 0;
+  overflow: hidden;
+}
+#waveCanvas {
+  display: block;
+}
