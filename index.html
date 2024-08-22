@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://js.cx/libs/animate.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="train--container">
+            <p>Пример с пермещением картинки в право</p>
+            <img id="train" src="https://js.cx/clipart/train.gif">
+        </div>
+        <div class="sheep--container">
+            <p>Пример с пермещением картинки в в лево</p>
+            <img id="sheep" src="https://cdn.icon-icons.com/icons2/1431/PNG/128/pirateshipicon_98567.png">
+        </div>
+        <div class="text--type">
+            <textarea id="textExample" rows="5" cols="60">
+                Но взял он меч, и взял он щит,
+                Высоких полон дyм.
+                В глущобу путь его лежит
+                Под дерево Тумтум.
+                  </textarea>
+            <button onclick="animateText(textExample)">Запустить анимацию набора текста!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>

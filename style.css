@@ -1,0 +1,77 @@
+/* простые перемещения картинок с сайта*/
+#train {
+   position: relative;
+    cursor: pointer;
+  }
+  .sheep--container{
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    align-items: end;
+  }
+  #sheep {
+    position: relative;
+     cursor: pointer;
+   }
+/* текст из примера с сайта**/
+textarea {
+    display: block;
+    border: 1px solid #BBB;
+    color: #444;
+    font-size: 110%;
+  }
+/* эффект падающих капель дождя**/
+.containerRain {
+    margin: 0;
+    overflow: hidden;
+    background-color: #202d3a; /* Цвет фона */
+    height: 100vh;
+    width: 100vw;
+}
+#rainCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+h1{
+    position: relative;
+    z-index: 2; /* Передний план */
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+/* эффект мерцаяющих звезд**/
+.stars--container{
+  margin: 0;
+  background-color: rgb(4, 4, 79);
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#star-container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgb(241, 241, 142);
+  opacity: 0;
+  animation: twinkle 1.5s infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
