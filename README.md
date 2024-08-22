@@ -3,5 +3,5 @@
 1) Эфеект падающих капель дождя.
    [https://sova0110.github.io/animation_js/raindrop.html]
 3) Эффект мерцающих звезд
-   [https://sova0110.github.io/animation_js/stars.html](url)
+   [https://sova0110.github.io/animation_js/stars.html]
 5) Эффект волн на водоеме.
